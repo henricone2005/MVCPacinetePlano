@@ -1,0 +1,19 @@
+@model Tela.Models.Plano
+
+<h2>Criar Plano</h2>
+
+<form asp-action="Criar" method="post">
+    <div>
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" required />
+    </div>
+    <div>
+        <label asp-for="Codigo"></label>
+        <input asp-for="Codigo" required />
+    </div>
+    <div>
+        <label asp-for="Cobertura"></label>
+        <input asp-for="Cobertura" required />
+    </div>
+    <button type="submit">Criar</button>
+</form>
