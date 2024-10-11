@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tela
 build_property.RootNamespace = Tela
-build_property.ProjectDir = c:\Users\henri\Downloads\Tela\MVCPacinetePlano\Tela\
+build_property.ProjectDir = C:\Users\henri\Downloads\Tela\MVCPacinetePlano\Tela\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\henri\Downloads\Tela\MVCPacinetePlano\Tela
+build_property.MSBuildProjectDirectory = C:\Users\henri\Downloads\Tela\MVCPacinetePlano\Tela
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Home/Index.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Home/Privacy.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Criar.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQ3JpYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Delete.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Edit.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Index.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Paciente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Criar.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbm9cQ3JpYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Delete.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbm9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Edit.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbm9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Index.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Plano/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Shared/Error.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/_ViewImports.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/_ViewStart.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Shared/_Layout.cshtml]
+[C:/Users/henri/Downloads/Tela/MVCPacinetePlano/Tela/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-owj7yv1e7q

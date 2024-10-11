@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+547cec3e054ded0a6087a519ef54f22da91b6e78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fd615fca58cb173ea3a5644f5e39c855a349ebf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

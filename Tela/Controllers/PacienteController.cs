@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Tela.Models;
 using System.Net.Http.Headers;
+using System.Net.Http.Json;
 
 namespace Tela.Controllers
 {
@@ -13,7 +14,7 @@ namespace Tela.Controllers
             _clientFactory = clientFactory;
         }
 
-        // Exibir todos os pacientes
+        // Método para exibir todos os pacientes
         public async Task<IActionResult> Index()
         {
             var client = _clientFactory.CreateClient("PacientesePlanos");
@@ -28,22 +29,7 @@ namespace Tela.Controllers
             return View(new List<Paciente>());
         }
 
-        // Detalhes de um paciente específico
-        public async Task<IActionResult> Detalhes(int id)
-        {
-            var client = _clientFactory.CreateClient("PacientesePlanos");
-            var response = await client.GetAsync($"api/pacientes/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                var paciente = await response.Content.ReadFromJsonAsync<Paciente>();
-                return View(paciente);
-            }
-
-            return NotFound($"Paciente com ID {id} não encontrado.");
-        }
-
-        // Formulário para criar um novo paciente
+        // Método para criar um novo paciente
         public IActionResult Criar()
         {
             return View();
@@ -67,71 +53,6 @@ namespace Tela.Controllers
             return View(paciente);
         }
 
-        // Formulário para editar um paciente existente
-        public async Task<IActionResult> Editar(int id)
-        {
-            var client = _clientFactory.CreateClient("PacientesePlanos");
-            var response = await client.GetAsync($"api/pacientes/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                var paciente = await response.Content.ReadFromJsonAsync<Paciente>();
-                return View(paciente);
-            }
-
-            return NotFound($"Paciente com ID {id} não encontrado.");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Editar(int id, Paciente paciente)
-        {
-            if (id != paciente.Id)
-            {
-                return BadRequest();
-            }
-
-            if (ModelState.IsValid)
-            {
-                var client = _clientFactory.CreateClient("PacientesePlanos");
-                var conteudo = JsonContent.Create(paciente);
-
-                var response = await client.PutAsync($"api/pacientes/{id}", conteudo);
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction(nameof(Index));
-                }
-            }
-
-            return View(paciente);
-        }
-
-        // Exibir confirmação para exclusão de um paciente
-        public async Task<IActionResult> Excluir(int id)
-        {
-            var client = _clientFactory.CreateClient("PacientesePlanos");
-            var response = await client.GetAsync($"api/pacientes/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                var paciente = await response.Content.ReadFromJsonAsync<Paciente>();
-                return View(paciente);
-            }
-
-            return NotFound($"Paciente com ID {id} não encontrado.");
-        }
-
-        [HttpPost, ActionName("Excluir")]
-        public async Task<IActionResult> ConfirmarExclusao(int id)
-        {
-            var client = _clientFactory.CreateClient("PacientesePlanos");
-            var response = await client.DeleteAsync($"api/pacientes/{id}");
-
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-
-            return View();
-        }
+        // Outros métodos do controlador...
     }
 }
